@@ -15,8 +15,8 @@ function subCadena(cadena, inicio, fin) {
 rl.question('Ingrese una frase: ', (cadena) => {
     rl.question('Ingrese la posición en la que desea iniciar: ', (inicio2) => {
         rl.question('Ingrese la posición en la que desea terminar: ', (fin2) => {
-            const inicio = parseInt(inicio2, 10);
-            const fin = parseInt(fin2, 10);
+            const inicio = parseInt(inicio2);
+            const fin = parseInt(fin2);
 
             const resultado = subCadena(cadena, inicio, fin);
 
